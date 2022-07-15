@@ -54,6 +54,7 @@ namespace Crud
             this.tsbBuscaPorId = new System.Windows.Forms.ToolStripLabel();
             this.tstId = new System.Windows.Forms.ToolStripTextBox();
             this.tsbBuscar = new System.Windows.Forms.ToolStripButton();
+            this.btnVisualizar = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -212,7 +213,7 @@ namespace Crud
             this.tsbBuscar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(576, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(568, 25);
             this.toolStrip1.TabIndex = 18;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -283,11 +284,22 @@ namespace Crud
             this.tsbBuscar.Text = "Buscar";
             this.tsbBuscar.Click += new System.EventHandler(this.tsbBuscar_Click);
             // 
+            // btnVisualizar
+            // 
+            this.btnVisualizar.Location = new System.Drawing.Point(414, 290);
+            this.btnVisualizar.Name = "btnVisualizar";
+            this.btnVisualizar.Size = new System.Drawing.Size(142, 23);
+            this.btnVisualizar.TabIndex = 19;
+            this.btnVisualizar.Text = "Visualizar Cadastros";
+            this.btnVisualizar.UseVisualStyleBackColor = true;
+            this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
+            // 
             // frmCadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(576, 325);
+            this.ClientSize = new System.Drawing.Size(568, 325);
+            this.Controls.Add(this.btnVisualizar);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.mskTelefone);
             this.Controls.Add(this.mskCEP);
@@ -343,6 +355,7 @@ namespace Crud
         private System.Windows.Forms.ToolStripLabel tsbBuscaPorId;
         private System.Windows.Forms.ToolStripTextBox tstId;
         private System.Windows.Forms.ToolStripButton tsbBuscar;
+        private System.Windows.Forms.Button btnVisualizar;
     }
 }
 

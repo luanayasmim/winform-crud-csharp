@@ -21,6 +21,7 @@ namespace Crud
         //Conexão com o banco de dados
         string connectionBD = @"Server=.\sqlexpress;Database=BD_CADASTRO;Trusted_Connection=True;";
         bool novo;
+        
 
         //Iniciando o formulário
         private void frmCadastroCliente_Load(object sender, EventArgs e)
@@ -68,8 +69,14 @@ namespace Crud
         //Botão Salvar
         private void tsbSalvar_Click(object sender, EventArgs e)
         {
+            //Validações
+            //Nome
+            string nome = txtNome.Text;
+            if (nome.Length > 100 || nome.StartsWith(" ") || nome.EndsWith(" ") || !nome.All(char.IsLetter))
+                MessageBox.Show("O nome é inválido");
+
             //Se for um registro novo
-            if (novo)
+            else if (novo)
             {
                 string sql = "INSERT INTO CLIENTE (NOME, ENDERECO, CEP, BAIRRO, CIDADE, UF, TELEFONE) "
                               + "VALUES ('" + txtNome.Text + "', '" + txtEndereco.Text + "', '"
@@ -281,6 +288,13 @@ namespace Crud
 
             tstId.Text = "";
 
+        }
+
+        private void btnVisualizar_Click(object sender, EventArgs e)
+        {
+            var Consulta = new Consulta();
+            var result = Consulta.ShowDialog();
+            this.Close();
         }
     }
 }

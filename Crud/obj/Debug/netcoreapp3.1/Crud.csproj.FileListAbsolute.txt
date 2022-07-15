@@ -22,3 +22,6 @@ C:\Users\lylourenco\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.csproj.C
 C:\Users\lylourenco\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.dll
 C:\Users\lylourenco\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.pdb
 C:\Users\lylourenco\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.genruntimeconfig.cache
+C:\Users\lylourenco\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.Consulta.resources
+C:\Users\lylourenco\source\repos\Crud\Crud\bin\Debug\netcoreapp3.1\Crud.dll.config
+C:\Users\lylourenco\source\repos\Crud\Crud\obj\Debug\netcoreapp3.1\Crud.Login.resources
