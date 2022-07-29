@@ -43,12 +43,13 @@ namespace Crud
             this.dataGridView.RowTemplate.Height = 25;
             this.dataGridView.Size = new System.Drawing.Size(844, 365);
             this.dataGridView.TabIndex = 0;
+            this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(277, 9);
+            this.label1.Location = new System.Drawing.Point(267, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(334, 30);
             this.label1.TabIndex = 1;

@@ -72,7 +72,7 @@ namespace Crud
             //Validações
             //Nome
             string nome = txtNome.Text;
-            if (nome.Length > 100 || nome.StartsWith(" ") || nome.EndsWith(" ") || !nome.All(char.IsLetter))
+            if (nome.Length > 100 || nome.StartsWith(" ") || nome.EndsWith(" "))
                 MessageBox.Show("O nome é inválido");
 
             //Se for um registro novo
@@ -294,7 +294,7 @@ namespace Crud
         {
             var Consulta = new Consulta();
             var result = Consulta.ShowDialog();
-            this.Close();
+            //this.Close();
         }
     }
 }

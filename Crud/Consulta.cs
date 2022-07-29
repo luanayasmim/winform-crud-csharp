@@ -57,9 +57,15 @@ namespace Crud
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            Application.OpenForms["frmCadastroCliente"].Visible = true;
+            //Application.OpenForms["frmCadastroCliente"].Visible = true;
             //sApplication.OpenForms["Consulta"].Visible = true;
+            this.Close();
             
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
