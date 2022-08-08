@@ -1,0 +1,16 @@
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\bin\Debug\net5.0\ConsoleCrud.exe
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\bin\Debug\net5.0\ConsoleCrud.deps.json
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\bin\Debug\net5.0\ConsoleCrud.runtimeconfig.json
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\bin\Debug\net5.0\ConsoleCrud.runtimeconfig.dev.json
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\bin\Debug\net5.0\ConsoleCrud.dll
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\bin\Debug\net5.0\ref\ConsoleCrud.dll
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\bin\Debug\net5.0\ConsoleCrud.pdb
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.csproj.AssemblyReference.cache
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.AssemblyInfoInputs.cache
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.AssemblyInfo.cs
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.csproj.CoreCompileInputs.cache
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.dll
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ref\ConsoleCrud.dll
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.pdb
+C:\Users\lylourenco\source\repos\Crud\ConsoleCrud\obj\Debug\net5.0\ConsoleCrud.genruntimeconfig.cache
