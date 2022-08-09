@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crud", "Crud\Crud.csproj", "{83513665-E9B9-4CB6-AF15-7FA267D2E4AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCrud", "ConsoleCrud\ConsoleCrud.csproj", "{8AE5B989-E003-4818-8185-7CF12C108F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleCrud", "ConsoleCrud\ConsoleCrud.csproj", "{8AE5B989-E003-4818-8185-7CF12C108F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
